@@ -1,0 +1,32 @@
+* {font-family: garamond;}
+
+div {
+	text-align: justify;
+	font-size: 14px;
+}
+.div-extérieur {
+	width: 270px;
+	height: 428px;
+	background-image: url(Margines/II.png);
+	background-size: cover;
+	border: 2px brown solid;
+}
+.div-intérieur {
+	width: 200px;
+	margin: auto;
+	padding-top: 35px;
+}
+
+.span-℣ {font-style: italic;}
+.span-℟ {font-weight: bold;}
+.span-titre {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.img-initiale {
+	float: left;
+	width: 60px;
+	margin-right: 2px;
+	margin-top: 2px;
+}
