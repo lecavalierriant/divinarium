@@ -16,6 +16,8 @@ div {
 	background-image: url(Margines/II.png);
 	background-size: cover;
 	border: 1px #000000 solid;
+	display: inline-block;
+	margin: 1px;
 }
 .div-interior {
 	width: 400px;
