@@ -8,19 +8,19 @@
 
 div {
 	text-align: justify;
-	font-size: 14px;
+	font-size: 28px;
 }
 .div-exterior {
-	width: 270px;
-	height: 428px;
+	width: 540px;
+	height: 856px;
 	background-image: url(Margines/II.png);
 	background-size: cover;
-	border: 2px brown solid;
+	border: 1px #000000 solid;
 }
 .div-interior {
-	width: 200px;
+	width: 400px;
 	margin: auto;
-	padding-top: 35px;
+	padding-top: 70px;
 }
 
 .img-illustrationis {
@@ -29,15 +29,15 @@ div {
 }
 .img-initiale {
 	float: left;
-	width: 46px;
-	margin-right: 2px;
-	margin-top: 2px;
+	width: 91px;
+	margin-right: 4px;
+	margin-top: 4px;
 }
 
 .span-℟ {font-weight: bold;}
 .span-titulus {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 36px;
 }
 .span-℣ {font-style: italic;}
 
