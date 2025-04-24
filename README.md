@@ -4,4 +4,4 @@
 
 
 
-Lien : https://lecavalierriant.github.io/Divinarium
+Referentia : https://lecavalierriant.github.io/Divinarium/Divinarium.html
