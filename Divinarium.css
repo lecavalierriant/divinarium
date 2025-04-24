@@ -13,7 +13,7 @@ div {
 .div-exterior {
 	width: 540px;
 	height: 856px;
-	background-image: url(margines/ii.png);
+	background-image: url(margines/i.png);
 	background-size: cover;
 	border: 1px #000000 solid;
 	display: inline-block;
