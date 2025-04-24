@@ -18,9 +18,11 @@ function initialiser() {
 		"change",
 		function() {
 			for (margine of document.getElementsByClassName("div-exterior")) {
-				source = margine.style.backgroundImage;
-				console.log("soucre = " + source);
-				margine.src = source[source.length - 3] + "/" + this.value.toLowerCase() + "/" + source[source.length - 1];
+				source = getComputedStyle(margine).backgroundImage.split("/");
+				console.log("url('" + source[source.length - 2] + "/" + this.value.toLowerCase() + ".png')")
+				margine.style.backgroundImage =
+					"url('" + source[source.length - 2] + "/" + this.value.toLowerCase() + ".png')"
+				;
 			}
 		}
 	);
