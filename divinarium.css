@@ -25,6 +25,8 @@ div {
 	padding-top: 70px;
 }
 
+fieldset {font-size: 25px;}
+
 .img-illustrationis {
 	display: block;
 	margin: auto;
@@ -36,6 +38,10 @@ div {
 	margin-top: 4px;
 }
 
+input {scale: 2;}
+
+select {font-size: 20px;}
+
 .span-℟ {font-weight: bold;}
 .span-rubidus {color: #990000;}
 .span-titulus {
@@ -46,7 +52,7 @@ div {
 
 @media (max-width: 1000px) {
 
-	* {font-family: garamond;}
+
 
 }
 
