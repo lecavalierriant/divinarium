@@ -36,6 +36,17 @@ function initialiser() {
 			}
 		}
 	);
+	document.getElementById("select-characterum-forma").addEventListener(
+		"change",
+		function() {
+			for (interior of document.getElementsByClassName("div-interior")) {
+				interior.style.fontFamily = this.value;
+			}
+			for (span of document.querySelectorAll("span")) {
+				span.style.fontFamily = this.value;
+			}
+		}
+	);
 }
 
 // ================================================================================================================= //
