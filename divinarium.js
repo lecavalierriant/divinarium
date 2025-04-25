@@ -10,7 +10,9 @@ function initialiser() {
 		function() {
 			for (initiale of document.getElementsByClassName("img-initiale")) {
 				source = initiale.src.split("/");
-				initiale.src = source[source.length - 3] + "/" + this.value.toLowerCase() + "/" + source[source.length - 1];
+				initiale.src =
+					source[source.length - 3] + "/" + this.value.toLowerCase() + "/" + source[source.length - 1]
+				;
 			}
 		}
 	);
