@@ -1,10 +1,10 @@
 a	á	A	Á
 e	é	E	É
 i	í	I	Í
-j	/	I	/
+j	j́	J	J́
 o	ó	O	Ó
-u	ú	V	V́
-v	/	V	/
+u	ú	U	Ú
+v	v́	V	V́
 æ	ǽ	Æ	Ǽ
 œ	œ́	Œ	Œ́
 
