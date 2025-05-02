@@ -4,14 +4,14 @@
 //                                                                                                                   //
 // ================================================================================================================= //
 
-function initialiser() {
+function initiare() {
 	document.getElementById("select-initiales").addEventListener(
 		"change",
 		function() {
 			for (initiale of document.getElementsByClassName("img-initiale")) {
-				source = initiale.src.split("/");
+				referentia = initiale.src.split("/");
 				initiale.src =
-					source[source.length - 3] + "/" + this.value.toLowerCase() + "/" + source[source.length - 1]
+					referentia[referentia.length - 3] + "/" + this.value.toLowerCase() + "/" + referentia[referentia.length - 1]
 				;
 			}
 		}
@@ -20,10 +20,10 @@ function initialiser() {
 		"change",
 		function() {
 			for (margine of document.getElementsByClassName("div-exterior")) {
-				source = getComputedStyle(margine).backgroundImage.split("/");
-				console.log("url('" + source[source.length - 2] + "/" + this.value.toLowerCase() + ".png')")
+				referentia = getComputedStyle(margine).backgroundImage.split("/");
+				console.log("url('" + referentia[referentia.length - 2] + "/" + this.value.toLowerCase() + ".png')")
 				margine.style.backgroundImage =
-					"url('" + source[source.length - 2] + "/" + this.value.toLowerCase() + ".png')"
+					"url('" + referentia[referentia.length - 2] + "/" + this.value.toLowerCase() + ".png')"
 				;
 			}
 		}
@@ -39,12 +39,8 @@ function initialiser() {
 	document.getElementById("select-characterum-forma").addEventListener(
 		"change",
 		function() {
-			for (interior of document.getElementsByClassName("div-interior")) {
-				interior.style.fontFamily = this.value;
-			}
-			for (span of document.querySelectorAll("span")) {
-				span.style.fontFamily = this.value;
-			}
+			for (interior of document.getElementsByClassName("div-interior")) {interior.style.fontFamily = this.value;}
+			for (span of document.querySelectorAll("span")) {span.style.fontFamily = this.value;}
 		}
 	);
 }
