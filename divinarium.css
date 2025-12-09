@@ -1,48 +1,40 @@
-* {font-family: garamond;}
+* {
+	font-family: "garamond";
+	font-size: 30px;
+	text-align: justify;
+}
 
 div {
-	text-align: justify;
-	font-size: 28px;
-}
-.div-exterior {
 	width: 540px;
 	height: 856px;
-	background-image: url(margines/i.png);
+	background-image: url("margine.png");
 	background-size: cover;
 	border: 1px #000000 solid;
-	display: inline-block;
-	margin: 1px;
 }
-.div-interior {
+div div {
 	width: 400px;
 	margin: auto;
 	padding-top: 70px;
+	background: none;
+	border: 0;
 }
+.occultatum {display: none;}
 
-fieldset {font-size: 25px;}
-
-.img-illustrationis {
+.illustrationis {
 	display: block;
 	margin: auto;
 }
-.img-initiale {
+.initiale {
 	float: left;
-	width: 91px;
+	width: 119px;
 	margin-right: 4px;
 	margin-top: 4px;
 }
 
-input {scale: 2;}
-
-select {font-size: 20px;}
-
-.span-℟ {font-weight: bold;}
-.span-titulus {
-	font-weight: bold;
-	font-size: 36px;
-}
-.span-℣ {font-style: italic;}
-.span-✠ {
+.℟,
+.titulus {font-weight: bold;}
+.℣ {font-style: italic;}
+.✠ {
 	color: #990000;
 	font-style: normal;
 }
