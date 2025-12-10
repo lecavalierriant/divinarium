@@ -4,10 +4,13 @@
 	text-align: justify;
 }
 
+body {background-color: #303841;}
+
 div {
 	width: 540px;
 	height: 856px;
 	background-image: url("margine.png");
+	background-color: #ffffff;
 	background-size: cover;
 	border: 1px #000000 solid;
 }
