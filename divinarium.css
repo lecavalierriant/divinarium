@@ -12,7 +12,7 @@ div {
 	background-image: url("margine.png");
 	background-color: #ffffff;
 	background-size: cover;
-	border: 1px #000000 solid;
+	margin-bottom: 20px;
 }
 div div {
 	width: 400px;
@@ -21,7 +21,6 @@ div div {
 	background: none;
 	border: 0;
 }
-.occultatum {display: none;}
 
 .illustrationis {
 	display: block;
