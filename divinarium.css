@@ -22,7 +22,10 @@ div div {
 	border: 0;
 }
 
-img {filter: drop-shadow(0 0 0);}
+img {
+	filter: drop-shadow(0 0 0);
+	margin: auto;
+}
 .illustrationis {
 	display: block;
 }
