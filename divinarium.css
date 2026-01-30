@@ -2,7 +2,7 @@
 	font-size: 30px;
 	text-align: justify;
 	color: #000000;
-	text-shadow: 0 0 0;
+	text-shadow: none;
 }
 
 div {
@@ -23,7 +23,7 @@ div div {
 }
 
 img {
-	filter: drop-shadow(0 0 0);
+	filter: none;
 	margin: auto;
 }
 .illustrationis {
