@@ -1,10 +1,10 @@
 * {
-	font-family: "garamond";
 	font-size: 30px;
 	text-align: justify;
+	color: #000000;
+	text-shadow: 0 0 0;
+	margin: auto;
 }
-
-body {background-color: #303841;}
 
 div {
 	width: 540px;
@@ -16,15 +16,14 @@ div {
 }
 div div {
 	width: 400px;
-	margin: auto;
 	padding-top: 70px;
 	background: none;
 	border: 0;
 }
 
+img {filter: drop-shadow(0 0 0);}
 .illustrationis {
 	display: block;
-	margin: auto;
 }
 .initiale {
 	float: left;
