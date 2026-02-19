@@ -54,7 +54,7 @@ img {
 	font-style: normal;
 }
 
-@media (min-width: 910px) {
+@media (min-width: 1000px) {
 
 body > div {margin: 20px auto 20px auto;}
 
