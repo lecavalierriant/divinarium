@@ -46,10 +46,7 @@ img {
 	margin: 4px 4px 0 0;
 }
 
-.℟,
-.titulus {font-weight: bold;}
-.℣ {font-style: italic;}
-.✠ {
+span {
 	color: #990000;
 	font-style: normal;
 }
