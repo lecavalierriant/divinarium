@@ -63,7 +63,7 @@ img {
 
 span {
 	color: #990000;
-	font-variant: small-caps;
+	font-style: normal;
 }
 
 @media (min-width: 1000px) {
