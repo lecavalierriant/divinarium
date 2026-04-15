@@ -13,6 +13,10 @@ div {
 	text-align: justify;
 	width: 540px;
 }
+.magnus {
+	background-image: url("margine-magnus.png");
+	height: 1285px;
+}
 #dextra {
 	position: fixed;
 	top: 0;
