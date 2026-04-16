@@ -3,6 +3,8 @@ div * {
 	text-shadow: none;
 }
 
+b:first-of-type {font-variant: small-caps;}
+
 div {
 	font-size: 30px;
 	background-color: #ffffff;
