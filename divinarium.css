@@ -1,5 +1,5 @@
 div * {
-	color: #000000;
+	color: #000;
 	text-shadow: none;
 }
 
@@ -7,7 +7,7 @@ b:first-of-type {font-variant: small-caps;}
 
 div {
 	font-size: 30px;
-	background-color: #ffffff;
+	background-color: #fff;
 	background-image: url("margine.png");
 	background-size: cover;
 	border-radius: 0;
