@@ -10,7 +10,7 @@ window.addEventListener(
 	"load",
 	(event) => {
 		for (bbb of document.querySelectorAll("span")) {
-			bbb.addEventListener('click', croix);
+			bbb.addEventListener("click", croix);
 		}
 	}
 );
